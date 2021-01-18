@@ -18,14 +18,9 @@ This assignment consists of making a clone of a New York Times article page.
 
 👤 **Authors2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Shay: [@craigs40](https://github.com/craigs40)
+- Lev: [@LevDoesCode](https://github.com/LevDoesCode)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
