@@ -8,7 +8,7 @@ body {
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 * {
-    border: #dc143c dashed 3px;
+    border: crimson dashed 3px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,9 +16,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-}
-li {
-    list-style: none;
+    border: 1px solid black;
 }
 .menu-container {
     display: flex;
@@ -46,8 +44,25 @@ li {
     cursor: pointer;
     font-weight: bold;
 }
-article {
-    margin-left: 25vw;
-    margin-right: 25vw;
+.nav-button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 11px;
+}
+.main {
+    width: 600px;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.main > * {
+  flex: 1;
+
 }
