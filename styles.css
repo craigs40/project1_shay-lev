@@ -28,8 +28,9 @@ body {
     align-items: center;
 }
 .menu-icon {
-    width: 33px;
-    height: 33px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
 }
 
 .nyt-logo {
@@ -43,8 +44,12 @@ body {
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+    margin-left: 10px;
 }
 .nav-button {
+  display: block;
+  padding: 11px 12px 8px;
+  margin-right: 5px;
   background-color: rgb(86, 123, 149);
   color: white;
   border: 1px solid rgb(50, 104, 145);
@@ -55,7 +60,8 @@ body {
   font-size: 11px;
 }
 .main {
-    width: 600px;
+    width: 60%;
+    margin: auto;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -64,5 +70,7 @@ body {
 }
 .main > * {
   flex: 1;
-
+}
+li {
+  list-style: none;
 }
