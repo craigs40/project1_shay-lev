@@ -128,7 +128,7 @@ li {
     margin-right: 10px;
 }
 
-figcaption {
+.img-caption {
     color: black;
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
     font-size: 12px;
