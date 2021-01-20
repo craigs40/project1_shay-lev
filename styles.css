@@ -65,7 +65,9 @@ a:active {
     margin-left: 10px;
     font-style: normal;
 }
-.nav-button {
+.nav-button,
+.nav-button:link,
+.nav-button:visited {
     display: block;
     padding: 11px 12px 8px;
     margin: 5px;
@@ -79,6 +81,13 @@ a:active {
     font-size: 11px;
     font-style: normal;
 }
+
+.nav-button:hover {
+    color: white;
+    background-color: rgb(50, 104, 145);
+    transition: 600ms ease-in;
+}
+
 h1 {
     font-style: italic;
     padding-top: 50px;
