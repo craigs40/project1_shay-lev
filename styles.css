@@ -172,7 +172,9 @@ li {
   align-items: center;
   padding-top: 100px;
 }
-
+.art-head .head-figure {
+  width: 100%;
+}
 .main > * {
   flex: 1;
 }
@@ -182,16 +184,16 @@ p {
 }
 .inflation1 {
   height: auto;
-  width: 90%;
-  margin-left: 100px;
+  width: 100%;
 }
 .inflation1cap {
-  margin-left: 100px;
+  width: 100%;
   font-size: 15px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-weight: 400;
   line-height: 20px;
   color: rgb(102, 102, 102);
+  max-width: 900px;
 }
 .inflation1credit {
   color: rgb(136, 136, 136);
@@ -200,6 +202,15 @@ p {
   font-weight: 400;
   letter-spacing: 0.13px;
   line-height: 18px;
+}
+figcaption {
+  padding-bottom: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(102, 102, 102);
 }
 .inflation2 {
   height: auto;
@@ -242,25 +253,22 @@ section.art-body .date {
   padding-bottom: 20px;
   padding-top: 0px;
 }
-
 .main .art-head {
-  width: 100%;
-}
-.main .art-head {
-  width: 100%;
+  width: 945px;
+  max-width: 945px;
 }
 .inflation-theory {
   height: auto;
-  width: 100%;
+  width: 945px;
 }
 .theory {
   position: absolute;
   transform: translate(0%, -110%);
-  width: 60%;
 }
 .theorygroup1 {
   display: flex;
   padding-bottom: 150px;
+  justify-content: space-between;
 }
 .theorygroup2 {
   display: flex;
@@ -300,7 +308,6 @@ section.art-body .date {
 .video {
   width: 100%;
   height: 500px;
-  padding-top: 30px;
 }
 .foot-credit {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
