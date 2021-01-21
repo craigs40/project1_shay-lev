@@ -184,6 +184,7 @@ li {
   padding-bottom: 30px;
   padding-top: 20px;
 }
+
 .main > * {
   flex: 1;
 }
@@ -213,7 +214,6 @@ p {
 
 .main header {
   width: 100%;
-
 }
 
 .main section {
@@ -221,6 +221,10 @@ p {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+}
+
+section.art-body {
+  width: 600px;
 }
 
 .main .art-head {
