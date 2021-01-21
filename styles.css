@@ -577,7 +577,6 @@ section.art-body .date {
   display: flex;
   flex-direction: column;
   width: 1200px;
-  height: 450px;
   color: rgb(0, 0, 0);
 }
 .f2-head {
@@ -585,15 +584,23 @@ section.art-body .date {
   flex-flow: row;
   justify-content: space-between;
 }
+
+.f2-head a {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
 .f2-body {
   display: flex;
 }
 .f2-cols {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 20%;
 }
-.f2-cols2{
+.f2-cols2 {
   border-left: 1px solid rgb(226, 226, 226);
   flex: 1 1 0%;
   padding-left: 15px;
@@ -601,26 +608,67 @@ section.art-body .date {
 .f2-cols li {
   font-family: nyt-franklin;
 }
-.f2-cols li{
+.f2-cols li {
   color: rgb(0, 0, 0);
   display: inline-block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
-  width: 150px;
   font-size: 14px;
   font-weight: 500;
   height: 23px;
+  width: 100%;
   line-height: 16px;
+  cursor: pointer;
 }
-.f2-col-header {
+
+.f2-cols li:hover {
+  text-decoration: underline;
+}
+
+.f2-cols .f2-col-header {
   color: rgb(51, 51, 51);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   height: 25px;
   font-size: 13px;
+  cursor: text;
+  text-decoration: none;
 }
-.f2-foot {
-  display: block;
 
+.list0 .f2-col-sub {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+}
+
+.f2-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 70px;
+  border-top: rgb(226, 226, 226) solid 1px;
+}
+
+.f2-foot li {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.f2-foot li:hover {
+  text-decoration: underline;
+}
+
+div.f2-cols.subs-col {
+  padding-left: 20px;
+  border-width: 1px;
+  border-left: rgb(226, 226, 226) solid 1px;
 }
