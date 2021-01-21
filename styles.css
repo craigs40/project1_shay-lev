@@ -154,6 +154,15 @@ li {
   line-height: 1.125rem;
   padding-bottom: 40px;
 }
+
+.img-caption span {
+  color: rgb(102, 102, 102);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
 .credit {
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -257,27 +266,7 @@ section.art-body .date {
   width: 945px;
   max-width: 945px;
 }
-.inflation-theory {
-  height: auto;
-  width: 945px;
-}
-.theory {
-  position: absolute;
-  transform: translate(0%, -110%);
-}
-.theorygroup1 {
-  display: flex;
-  padding-bottom: 150px;
-  justify-content: space-between;
-}
-.theorygroup2 {
-  display: flex;
-}
-.theory-text {
-  display: flex-wrap;
-  font-size: 10px;
-  margin-right: 20px;
-}
+
 .cooking-ad {
   display: flex;
   padding-bottom: 30px;
@@ -403,6 +392,48 @@ section.art-body .date {
   max-width: 82px;
 }
 
+.img-figure {
+  width: 945px;
+  height: 753px;
+  display: flex;
+  flex-flow: column;
+}
+
+.img-figure h3 {
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.inflation-collection {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/content/inflation-theory.png");
+  background-size: 945px 576px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.theory {
+  position: absolute;
+  transform: translate(0%, -110%);
+}
+.theorygroup1 {
+  display: flex;
+  padding-bottom: 150px;
+  justify-content: space-between;
+}
+.theorygroup2 {
+  display: flex;
+}
+.theory-text {
+  display: flex-wrap;
+  font-size: 10px;
+  margin-right: 20px;
+}
 .suggested-sub {
   color: rgb(51, 51, 51);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
