@@ -172,18 +172,6 @@ li {
   align-items: center;
   padding-top: 100px;
 }
-.author {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 700;
-  font-size: 13px;
-}
-.date {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
 
 .main > * {
   flex: 1;
@@ -199,13 +187,19 @@ p {
 }
 .inflation1cap {
   margin-left: 100px;
-  font-size: 8px;
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(102, 102, 102);
 }
 .inflation1credit {
-  color: #666;
+  color: rgb(136, 136, 136);
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size: 4px;
-  line-height: 1.125rem;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.13px;
+  line-height: 18px;
 }
 .inflation2 {
   height: auto;
@@ -225,6 +219,28 @@ p {
 
 section.art-body {
   width: 600px;
+}
+
+section.art-body p {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+}
+
+section.art-body .author {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+section.art-body .date {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 
 .main .art-head {
