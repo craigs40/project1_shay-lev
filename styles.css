@@ -608,6 +608,17 @@ section.art-body .date {
   font-size: 11px;
 }
 
+.f2-foot a {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
 .most-popular a:hover {
   color: rgb(102, 102, 102);
 }
@@ -652,17 +663,6 @@ section.art-body .date {
   height: 23px;
   width: 100%;
   line-height: 16px;
-  cursor: pointer;
-}
-
-.f2-foot a {
-  color: rgb(102, 102, 102);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
   cursor: pointer;
 }
 
