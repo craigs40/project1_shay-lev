@@ -529,7 +529,7 @@ section.art-body .date {
 }
 
 form {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -639,10 +639,12 @@ form {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  padding-top: 50px;
 }
 
 .f2-body {
   display: flex;
+  padding-top: 50px;
 }
 
 .f2-cols {
