@@ -434,11 +434,6 @@ section.art-body .date {
   flex-flow: column nowrap;
 }
 
-.suggested {
-  display: flex;
-  flex-flow: column;
-}
-
 .footer-title {
   font-size: 16px;
   font-weight: 700;
@@ -520,7 +515,7 @@ section.art-body .date {
 }
 
 .theory-text {
-  display: flex-wrap;
+  display: flex;
   width: 22%;
   font-size: 10px;
 }
@@ -563,7 +558,7 @@ section.art-body .date {
   color: rgb(153, 153, 153);
   text-align: end;
   font-size: 10px;
-  font-family: nyt-cheltenham2;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 400;
   font-stretch: 100%;
   cursor: pointer;
@@ -586,7 +581,7 @@ section.art-body .date {
 .artdate {
   color: rgb(153, 153, 153);
   font-weight: 500;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
   font-stretch: 100%;
   line-height: 20px;
@@ -606,6 +601,13 @@ section.art-body .date {
   color: rgb(18, 18, 18);
 }
 
+.f2-head a {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
 .most-popular a:hover {
   color: rgb(102, 102, 102);
 }
@@ -621,13 +623,6 @@ section.art-body .date {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-}
-
-.f2-head a {
-  color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 400;
-  font-size: 11px;
 }
 
 .f2-body {
@@ -647,10 +642,6 @@ section.art-body .date {
 }
 
 .f2-cols li {
-  font-family: nyt-franklin;
-}
-
-.f2-cols li {
   color: rgb(0, 0, 0);
   display: inline-block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -661,6 +652,17 @@ section.art-body .date {
   height: 23px;
   width: 100%;
   line-height: 16px;
+  cursor: pointer;
+}
+
+.f2-foot li {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   cursor: pointer;
 }
 
@@ -692,17 +694,6 @@ section.art-body .date {
   width: auto;
   height: 70px;
   border-top: rgb(226, 226, 226) solid 1px;
-}
-
-.f2-foot li {
-  color: rgb(102, 102, 102);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
 }
 
 .f2-foot li:hover {

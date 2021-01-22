@@ -3,7 +3,6 @@
   src: url("assets/fonts/cheltenham-italic-200.ttf") format("truetype");
   font-style: italic;
   font-weight: 200;
-  font-display: swap;
 }
 
 @font-face {
@@ -11,7 +10,6 @@
   src: url("assets/fonts/cheltenham-italic-300.ttf") format("truetype");
   font-style: italic;
   font-weight: 300;
-  font-display: swap;
 }
 
 @font-face {
@@ -19,7 +17,6 @@
   src: url("assets/fonts/cheltenham-italic-400.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
@@ -27,7 +24,6 @@
   src: url("assets/fonts/cheltenham-italic-500.ttf") format("truetype");
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -35,7 +31,6 @@
   src: url("assets/fonts/cheltenham-italic-700.ttf") format("truetype");
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -43,7 +38,6 @@
   src: url("assets/fonts/cheltenham-italic-800.ttf") format("truetype");
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
 }
 
 @font-face {
@@ -51,23 +45,20 @@
   src: url("/assets/fonts/cheltenham-cond-normal-300.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
 }
 
-font-face {
+@font-face {
   font-family: "nyt-cheltenham-cond";
   src: url("/assets/fonts/cheltenham-cond-normal-500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
 }
 
-font-face {
+@font-face {
   font-family: "nyt-cheltenham-cond";
   src: url("/assets/fonts/cheltenham-cond-normal-700.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -75,7 +66,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-200.ttf") format("truetype");
   font-style: normal;
   font-weight: 200;
-  font-display: swap;
 }
 
 @font-face {
@@ -83,7 +73,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-300.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
 }
 
 @font-face {
@@ -91,7 +80,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-400.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
@@ -99,7 +87,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -107,7 +94,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-700.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -115,7 +101,6 @@ font-face {
   src: url("/assets/fonts/cheltenham-normal-800.ttf") format("truetype");
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
 }
 
 @font-face {
@@ -123,7 +108,6 @@ font-face {
   src: url("assets/fonts/franklin-italic-300.ttf") format("truetype");
   font-style: italic;
   font-weight: 300;
-  font-display: swap;
 }
 
 @font-face {
@@ -131,7 +115,6 @@ font-face {
   src: url("assets/fonts/franklin-italic-500.ttf") format("truetype");
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -139,7 +122,6 @@ font-face {
   src: url("assets/fonts/franklin-italic-600.ttf") format("truetype");
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
 }
 
 @font-face {
@@ -147,7 +129,6 @@ font-face {
   src: url("assets/fonts/franklin-italic-700.ttf") format("truetype");
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -155,7 +136,6 @@ font-face {
   src: url("assets/fonts/franklin-italic-800.ttf") format("truetype");
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
 }
 
 @font-face {
@@ -163,7 +143,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-300.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
 }
 
 @font-face {
@@ -171,7 +150,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -179,7 +157,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-600.ttf") format("truetype");
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
 }
 
 @font-face {
@@ -187,7 +164,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-700.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -195,7 +171,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-800.ttf") format("truetype");
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
 }
 
 @font-face {
@@ -203,7 +178,6 @@ font-face {
   src: url("assets/fonts/franklin-normal-900.ttf") format("truetype");
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
 }
 
 @font-face {
@@ -211,7 +185,6 @@ font-face {
   src: url("/assets/fonts/imperial-normal-400.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
@@ -219,7 +192,6 @@ font-face {
   src: url("/assets/fonts/imperial-normal-500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -227,7 +199,6 @@ font-face {
   src: url("/assets/fonts/imperial-normal-600.ttf") format("truetype");
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
 }
 
 @font-face {
@@ -235,7 +206,6 @@ font-face {
   src: url("/assets/fonts/imperial-normal-700.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -243,7 +213,6 @@ font-face {
   src: url("/assets/fonts/imperial-italic-400.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
@@ -251,7 +220,6 @@ font-face {
   src: url("/assets/fonts/imperial-italic-500.ttf") format("truetype");
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
@@ -259,7 +227,6 @@ font-face {
   src: url("/assets/fonts/imperial-italic-600.ttf") format("truetype");
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
 }
 
 @font-face {
@@ -267,5 +234,4 @@ font-face {
   src: url("/assets/fonts/imperial-italic-700.ttf") format("truetype");
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
 }
