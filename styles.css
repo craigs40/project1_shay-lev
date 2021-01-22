@@ -655,7 +655,7 @@ section.art-body .date {
   cursor: pointer;
 }
 
-.f2-foot li {
+.f2-foot a {
   color: rgb(102, 102, 102);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
@@ -696,7 +696,7 @@ section.art-body .date {
   border-top: rgb(226, 226, 226) solid 1px;
 }
 
-.f2-foot li:hover {
+.f2-foot a:hover {
   text-decoration: underline;
 }
 
