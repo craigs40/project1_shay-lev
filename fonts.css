@@ -13,6 +13,7 @@
   font-weight: 300;
   font-display: swap;
 }
+
 @font-face {
   font-family: "nyt-cheltenham";
   src: url("assets/fonts/cheltenham-italic-400.ttf") format("truetype");
