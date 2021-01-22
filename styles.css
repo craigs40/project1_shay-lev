@@ -515,7 +515,7 @@ section.art-body .date {
 }
 
 .theory-text {
-  display: flex;
+  display: block;
   width: 22%;
   font-size: 10px;
 }
@@ -526,6 +526,11 @@ section.art-body .date {
 
 .spacer2 {
   height: 190px;
+}
+
+form {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .suggested-sub {
