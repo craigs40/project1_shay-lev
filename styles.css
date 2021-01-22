@@ -1,3 +1,48 @@
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: static;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+nav div {
+  background-color: goldenrod;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main p {
+  width: 90%;
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav div p {
+  height: 100%;
   color: blue;
+}
+
+nav div #drop {
+  position: absolute;
+  top: 25px;
+  width: 50px;
+  height: 20px;
+  background-color: crimson;
+  text-align: right;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
