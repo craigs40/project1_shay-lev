@@ -19,7 +19,7 @@ body {
 
 aside {
   display: block;
-  flex-wrap: column wrap;
+  flex-wrap: wrap;
   height: 300px;
   width: 300px;
   position: absolute;
@@ -32,9 +32,8 @@ aside {
 
 .side-editor-body {
   display: flex;
-  flex-wrap: column wrap;
+  flex-wrap: wrap;
   padding-bottom: 20px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
 }
 
 .side-img {
