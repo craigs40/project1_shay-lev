@@ -4,12 +4,15 @@
 
 This assignment consists of making a clone of a New York Times article page.
 
+[![Screenshot-Project1.png](https://i.postimg.cc/j5MMVjLG/Screenshot-Project1.png)](https://postimg.cc/FdJy3NbZ)
+
 ## Built With
 
 - HTML
 - CSS
 
 ## Live Demo
+
 
 [Live Demo Link](https://craigs40.github.io/project1_shay-lev/)
 
@@ -26,7 +29,7 @@ This assignment consists of making a clone of a New York Times article page.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/craigs40/project1_shay-lev/issues).
 
 ## Show your support
 
