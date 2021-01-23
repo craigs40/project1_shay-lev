@@ -13,6 +13,7 @@ This assignment consists of making a clone of a New York Times article page.
 
 ## Live Demo
 
+
 [Live Demo Link](https://craigs40.github.io/project1_shay-lev/)
 
 
