@@ -4,6 +4,8 @@
 
 This assignment consists of making a clone of a New York Times article page.
 
+[![Screenshot-Project1.png](https://i.postimg.cc/j5MMVjLG/Screenshot-Project1.png)](https://postimg.cc/FdJy3NbZ)
+
 ## Built With
 
 - HTML
@@ -35,4 +37,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
