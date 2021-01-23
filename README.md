@@ -11,7 +11,7 @@ This assignment consists of making a clone of a New York Times article page.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://craigs40.github.io/project1_shay-lev/)
 
 
 ## Authors
@@ -35,4 +35,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
