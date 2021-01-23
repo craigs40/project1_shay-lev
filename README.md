@@ -28,7 +28,7 @@ This assignment consists of making a clone of a New York Times article page.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/github/hub/issues).
 
 ## Show your support
 
