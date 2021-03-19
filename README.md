@@ -4,7 +4,7 @@
 
 This assignment consists of making a clone of a New York Times article page.
 
-[![Screenshot-Project1.png](https://i.postimg.cc/j5MMVjLG/Screenshot-Project1.png)](https://postimg.cc/FdJy3NbZ)
+![ScreenshotNYT](https://user-images.githubusercontent.com/71286979/111842696-3ba54d80-88d6-11eb-8bf4-3df2a6e138a6.png)
 
 ## Built With
 
